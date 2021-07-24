@@ -1,1 +1,19 @@
+#-----PROGRAM 1-----
 
+def prog1():
+    Case=int(input())
+    x=0
+    for i in range(Case):
+        length=int(input())
+        elements=input().split()
+        key=input()
+        for i in range(length):
+            if elements[i]==key:
+                print("IS PRESENT AT",i+1)
+                x=1
+                break
+    if x == 0:
+            print("IS NOT PRESENT AT ALL", length)
+prog1()
+
+#-----PROGRAM 2-----
